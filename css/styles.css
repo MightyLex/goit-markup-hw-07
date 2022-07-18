@@ -61,10 +61,6 @@ body {
 
 }
 
-.section {
-    color: var(--section-color);
-
-}
 
 .container {
     width: 1200px;
@@ -402,6 +398,10 @@ body {
 
 
 
+/* Hero section */
+
+
+
 
 .hero {
     padding: 200px 0;
@@ -455,6 +455,13 @@ body {
 .hero-btn:focus {
     background-color: #188CE8;
 }
+
+
+
+
+/* FEATURES */
+
+
 
 
 .features {
@@ -531,12 +538,20 @@ body {
     color: var(--main-color);
 }
 
+
+
+
+/*  J O B S  */
+
+
+
 .jobs {
     padding-bottom: 94px;
 
 }
 
-.jobs-team-title {
+.jobs-title {
+    color: var(--section-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -582,6 +597,11 @@ body {
 
 
 
+/* T E A M */
+
+
+
+
 .team {
     padding: 94px 0;
     /* max-width: 1600px; */
@@ -590,6 +610,7 @@ body {
 }
 
 .team-title {
+    color: var(--section-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -623,6 +644,7 @@ body {
 
 
 .card-item-title {
+    color: var(--section-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -1018,7 +1040,7 @@ textarea {
     display: block;
 }
 
-.icon-pos{
+.icon-pos {
     display: block;
     position: relative;
     margin-top: 4px;
@@ -1032,7 +1054,7 @@ textarea {
 .modal-list input,
 .modal-list textarea {
     width: 100%;
-    
+
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
 
